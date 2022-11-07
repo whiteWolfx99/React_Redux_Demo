@@ -27,7 +27,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 15px;
-  weight: 500px;
+  width: 80%;
 }
 
 .Header {
