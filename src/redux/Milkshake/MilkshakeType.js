@@ -1,0 +1,1 @@
+export const BUY_MILKSHAKE = 'BUY_MILKSHAKE'
