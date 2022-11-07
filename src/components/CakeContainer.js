@@ -5,8 +5,6 @@ import { connect } from 'react-redux'
 const CakeContainer = (props) => {
     return ( 
         <div>
-                  <hr></hr>
-            <h1>cheese cake</h1>
             <h2>Number of cakes - {props.numOfCakes}</h2>
             <button onClick={props.buyCake}>Buy cake</button>
         </div>

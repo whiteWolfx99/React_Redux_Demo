@@ -5,7 +5,6 @@ import { connect } from "react-redux";
 function milkshakecontainer(props) {
   return (
     <div>
-        <hr></hr>
         <h1>milkshake</h1>
         <h2>number of milk shake - {props.numOfMilkshakes}</h2>
         <button onClick={props.buymilkshake}>Buy milkshake</button>
