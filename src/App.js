@@ -9,11 +9,14 @@ import Milkshakecontainer from "./components/milkshakecontainer";
 import NewCakeContainer from "./components/NewCakeContainer";
 import Header from "./components/Header";
 import ItemContainer from "./components/ItemContainer";
+import UserContainer from "./components/UserContainer";
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
+        <UserContainer/>
+        <hr></hr>
        <div className="makeit">
        <div className="itemcontainer">
           <ItemContainer cake />
